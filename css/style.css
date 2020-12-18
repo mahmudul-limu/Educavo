@@ -1,0 +1,701 @@
+
+/*======== site default css ========*/ 
+*{
+    box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+/*======== google fonts ========*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,700&family=Rubik:wght@300;400;700&display=swap');
+
+/* 
+font-family: 'Nunito', sans-serif;
+font-family: 'Rubik', sans-serif; 
+*/
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.container {
+	width: 1250px;
+    padding: 0;
+	margin: 0 auto;
+}
+
+.container:before,
+.container:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-33{
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-20{
+    width: 20%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-25{
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-35{
+    width: 35%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-40{
+    width: 40%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-50{
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-60{
+    width: 60%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-65{
+    width: 65%;
+    padding: 0 15px;
+    float: left;
+}
+.col-80{
+    width: 80%;
+    padding: 0 15px;
+    float: left;
+}
+
+.section-padding-top {
+    padding-top: 100px;
+}
+
+.section-padding-bottom {
+    padding-bottom : 100px;
+}
+
+/* -------header------- */
+.head{
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    padding: 20px;
+    margin-top: 20px;
+}
+header ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: all ease .7s;
+}
+header ul li a:hover{
+    color: orangered;
+    transition: 0.7s;
+}
+
+.logo{
+    overflow: hidden;
+}
+.logo img{
+    width: 80%;
+    height: 80%;
+}
+.menu-icon {
+    float: right;
+}
+
+.main-menu {
+    text-align: center;
+}
+i.fas.fa-shopping-bag{
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 50px;
+}
+i.fas.fa-user {
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.heading{
+    margin: 200px auto;
+    text-align: center;
+    line-height: 40px;
+}
+.heading h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 70px;
+    margin: 20px;
+    margin-bottom: 50px;
+    display: block;
+}
+.heading h3{
+    font-size: 25px;
+    color: orangered;
+}
+.btn{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 68, 0, 0.849);
+    cursor: pointer;
+    color: #ffffff;
+}
+.btn:hover{
+    background-color:#171F32;
+}
+
+/* --------header section box item------ */
+.header-box-item .col-33{
+    margin-bottom: 80px;
+}
+.box{
+    overflow: hidden;
+    background-color: #171F31;
+    padding: 35px;
+    border-radius: 5px;
+}
+.box-item img{
+    float: left;
+    width: 50px;
+    height: auto;
+}
+.box-item2{
+    padding-left: 80px;
+    color: #fff;
+}
+
+/* ----------categories----------- */
+.ctg-header{
+    margin: 50px auto;
+    text-align: center;
+}
+.ctg-header h1{
+    font-size: 35px;
+    margin-top: 15px;
+}
+.ctg-header h4{
+    color: #FF5421;
+}
+.categories .col-33{
+    padding: 15px;
+}
+
+.ctg-box{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    width: 100%;
+    padding-top: 300px;
+    padding-left: 30px;
+    color: #ffffff;
+    line-height: 30px;
+    border-radius: 5px;
+    box-shadow: 0px -70px 70px 5px #101010 inset;
+}
+.ctg-box img{
+    float: left;
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+.ctg-box h2:hover{
+    cursor: pointer;
+    color: #FF5421;
+}
+.cat-bg-1{
+    background-image: url(../images/ctg1.jpg);
+}
+.cat-bg-2{
+    background-image: url(../images/ctg2.jpg);
+}
+.cat-bg-3{
+    background-image: url(../images/ctg3.jpg);
+}
+.cat-bg-4{
+    background-image: url(../images/ctg4.jpg);
+}
+.cat-bg-5{
+    background-image: url(../images/ctg5.jpg);
+}
+.cat-bg-6{
+    background-image: url(../images/ctg6.jpg);
+}
+
+.button{
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* --------------course part start-------------- */
+.course{
+    background-color: #F9F8F8;
+    padding: 100px 0px;
+}
+.course .col-33{
+    padding: 20px;
+}
+.course-header{
+    margin: 50px auto;
+    text-align: center;
+}
+.course-header h1{
+    font-size: 35px;
+    margin-top: 15px;
+}
+.course-header h4{
+    color: #FF5421;
+}
+.course-item{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.course-bg{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.course img{
+    height: 100%;
+    width: 100%;
+    transition: 0.7s;
+}
+.course-item:hover img{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.course span{
+    padding: 10px 25px;
+    background-color: #FF5421;
+    border-radius: 5px;
+    color: #ffffff;
+    position: absolute;
+    top: 15px;
+    left: 260px;
+}
+.course-details{
+    padding: 20px;
+}
+.rating{
+    margin: 10px 0;
+}
+.rating li{
+    list-style: none;
+    color: #FCB903;
+    display: inline;
+}
+#rating{
+    color: #000000;
+}
+
+.divider{
+    border-bottom: 1px solid rgb(228, 227, 227);
+    margin-top: 20px;
+}
+.course-details h1{
+    margin: 15px 0;
+}
+.course-details h1:hover{
+    color: #FF5421;
+    cursor: pointer;
+}
+.lesson li{
+    list-style: none;
+    display: inline;
+    line-height: 80px;
+    color: rgb(68, 67, 67);
+}
+.lesson{
+    display: flex;
+    justify-content: space-between;
+}
+.lesson .fas{
+    color: #FF5421;
+}
+
+/* -------------offer section----------- */
+.offer .col-50{
+    padding: 0;
+}
+.offer-left{
+    background-image: url(../images/offer-left.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+.offer-right{
+    background-image: url(../images/offer-right.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    padding: 100px 50px;
+}
+.offer-right h1{
+    font-size: 30px;
+    color: #ffffff;
+}
+.offer-right p{
+    color: #ffffff;
+    margin: 30px 0;
+    padding: 10px 140px 10px 0px;
+}
+.offer-right .btn:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* ----------FAQ section--------- */
+.faq{
+    padding: 100px 0;
+    clear: both;
+}
+.faq .col-50{
+    padding: 0;
+}
+.faq-left{
+    padding: 50px;
+    background-color: #F9F8F8;
+}
+.faq-left h1{
+    font-size: 30px;
+}
+.faq-left li{
+    list-style: none;
+    padding: 20px 20px;
+    background-color: #ffffff;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.faq-left i{
+    margin-right: 15px;
+}
+
+.faq-right{
+    overflow: hidden;
+}
+.faq-right img{
+    height: 420px;
+    width: 100%;
+}
+
+/* ---------Testimonial part--------- */
+.testimonial{
+    padding: 50px 0;
+    background-image: url(../images/test-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonial .col-50{
+    color: #ffffff;
+    text-align: center;
+}
+.testimonial-heading{
+    margin: 50px auto;
+    text-align: center;
+}
+.testimonial-heading h1{
+    color: #ffffff;
+    font-size: 35px;
+    margin-top: 15px;
+}
+.testimonial-heading h4{
+    color: #FF5421;
+}
+.testimonial-1{
+    background-color: #171f31c0;
+    padding: 50px;
+}
+.testimonial-1 h3{
+    padding: 10px;
+    font-size: 24px;
+    line-height: 40px;
+    margin:  20px 0;
+    font-style: italic;
+    font-weight: 600;
+}
+.student{
+    margin-top: -50px;
+}
+
+/* -----------News Update Start--------- */
+.news{
+    padding: 100px 0;
+    background-color: #FBFBFB;
+    margin-bottom: 70px;
+}
+.news-heading{
+    margin: 50px auto;
+    text-align: center;
+}
+.news-heading h1{
+    font-size: 35px;
+    margin-top: 15px;
+}
+.news-heading h4{
+    color: #FF5421;
+}
+.news-bg{
+    overflow: hidden;
+    height: 250px;
+}
+.news-bg img{
+    height: 100%;
+    width: 100%;
+}
+.update{
+    padding: 30px;
+}
+.update i{
+    color: #FF5421;
+}
+.up-list{
+    margin: 20px 0;
+}
+.up-list li{
+    list-style: none;
+    display: inline;
+    margin-right: 35px;
+}
+.down-list li{
+    list-style: none;
+}
+.down-list{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.down-list li:hover{
+    color: #FF5421;
+    cursor: pointer;
+}
+
+.update h2,.update p{
+    margin: 20px 0;
+    line-height: 32px;
+}
+.update h2:hover{
+    color: #FF5421;
+    cursor: pointer;
+}
+.news-item{
+    background-color: #ffffff;
+}
+
+/* ---------footer part-------- */
+footer{
+    background-color: #151515;
+    color: #ffffff;
+}
+.subscribe-form{
+    padding: 60px;
+    background-color: #171F31;
+    border-radius: 5px;
+    margin: 50px;
+    margin-top: -90px;
+}
+.subscribe-form img{
+    height: 60px;
+    width: 60px;
+    margin-bottom: -23px;
+}
+.subscribe-form img, .subscribe-form h1, form{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#email{
+    padding: 20px 0;
+    padding-right: 200px;
+    padding-left: 20px;
+    border-radius: 5px 0 0 5px;
+}
+#submit{
+    padding: 21px 40px;
+    margin-left: -7px;
+    background-color: #FF5421;
+    color: #ffffff;
+    cursor: pointer;
+    border: #FF5421;
+    border-radius: 0 5px 5px 0;
+}
+#submit:hover{
+    background-color: #fd6d42;
+}
+.subscribe-form h1{
+    color: #ffffff;
+}
+
+/* ------footer-01-------- */
+.footer-1{
+    padding: 30px;
+    padding-top: 0;
+}
+.footer-1 img{
+    width: 100%;
+    height: auto;
+}
+.footer-1 p{
+    line-height: 30px;
+    margin: 20px 0;
+}
+.footer-1 li{
+    list-style: none;
+    display: inline;
+}
+.footer-1 li:hover{
+    cursor: pointer;
+    color: #FF5421;
+}
+.footer-1 ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------footer-02------- */
+.footer-2{
+    padding: 30px;
+    padding-top: 0;
+}
+.footer-2 h1{
+    border-bottom: 3px solid #FF5421;
+}
+.footer-2 li{
+    list-style: none;
+    margin-top: 20px;
+}
+.footer-2 li:hover{
+    color: #FF5421;
+    cursor: pointer;
+}
+.footer-2 i{
+    color: #FF5421;
+    margin-right: 20px;
+}
+
+/* --------footer-03------ */
+.footer-3{
+    padding: 50px;
+    padding-top: 0;
+}
+.footer-3 h1{
+    border-bottom: 3px solid #FF5421;
+}
+.footer-3 li{
+    list-style: square;
+    padding-left: 5px;
+    line-height: 35px;
+}
+.footer-3 li:hover{
+    color: #FF5421;
+    cursor: pointer;
+}
+
+/* ---------footer-04--------- */
+.footer-4 h1{
+    border-bottom: 3px solid #FF5421;
+    margin-bottom: 30px;
+}
+.footer-4 img{
+    width: 250%;
+    height: auto;
+}
+.footer-4 p{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.footer-4 li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.footer-4 i{
+    color: #FF5421;
+    margin-right: 5px;
+}
+.footer-4 .col-80 .col-20{
+    padding: 10px;
+}
+.footer-4{
+    clear: both;
+}
+.footer-4 p:hover{
+    cursor: pointer;
+    color: #FF5421;
+}
+
+footer .col-25{
+    padding: 20px;
+}
+
+footer .divider{
+    margin-top: 400px;
+    clear: both;
+}
+/* -------copyright----- */
+.copyright{
+    padding: 30px 10px;
+    padding-bottom: 50px;
+
+}
+.copyright span{
+    color: #FF5421;
+    cursor: pointer;
+}
+.copyright ul{
+    float: right;
+}
+.copyright li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.copyright li:hover{
+    cursor: pointer;
+    color: #FF5421;
+}
